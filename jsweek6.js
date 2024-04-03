@@ -18,7 +18,7 @@ window.onload = function() {
         btnbing.onclick = handlebing;
     }
 
-    // Functionality for "Add Fruits" button
+    //Functionality for "Add Fruits" button
     var btnFruit = document.getElementById('fruit');
     btnFruit.onclick = addtodo;
 

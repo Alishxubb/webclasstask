@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+    <style>
+        .button{
+
+          background-color: aqua;  
+          padding: 5px;
+        }
+        .DELETEbtn:hover{
+            cursor: pointer;
+            background-color: rgb(0, 255, 13);
+            
+        }
+        #btn{
+background-color: aqua;
+padding-left: 50px;
+margin-top: 50px;
+border-radius: 50px;
+border-color: rgba(165, 42, 42, 0.017);
+       }
+       #btnbing{
+background-color: rgb(255, 0, 85);
+padding-left: 50px;
+margin-top: 50px;
+border-radius: 50px;
+border-color: brown;
+       }
+       #myinput{
+        margin-bottom: 20px;
+        
+       }
+       #btndelete{
+background-color: rgb(172, 210, 22);
+padding-left: 50px;
+margin-top: 50px;
+border-radius: 50px;
+border-color: rgb(165, 110, 42);
+       }
+    .DELETEbtn{
+        margin-top: 5px;
+       }
+       #dos {
+        list-style-type:decimal-leading-zero;
+        padding: 1px;
+       }
+      #dos li {
+        
+margin-bottom: 5px;
+border-radius: 50px;
+background-color:blueviolet;
+padding: 4px;
+border-radius: 10px;
+      }
+       
+    </style>
+    
+</head>
+<body>
+    <input type=text id='myinput'>
+    <button id='btn'>TO DO</button>
+    <button id='btnbing'>ADD TO</button>
+    <button id='btndelete'>ADD Vegies</button>
+    <ul id="dos">
+        <li>onion<button class="DELETEbtn">Delete</button></li>
+        <li>potato<button class="DELETEbtn">Delete</button></li>
+        <li>curry leaves<button class="DELETEbtn">Delete</button></li>
+        <li>tomato<button class="DELETEbtn">Delete</button></li>
+    </ul>
+</body>
+</html>
